@@ -1,7 +1,7 @@
 {
   "name": "standard-readme-spec",
-  "version": "1.1.4",
-  "description": "Readme Standard Style",
+  "version": "1.2.1",
+  "description": "A standard style for README files",
   "bin": "cat.sh",
   "repository": {
     "type": "git",
@@ -29,7 +29,8 @@
   },
   "homepage": "https://github.com/RichardLitt/standard-readme",
   "dependencies": {
-    "opencollective": "^1.0.3"
+    "opencollective": "^1.0.3",
+    "opencollective-postinstall": "^2.0.3"
   },
   "coordinates": [
     52.5173031,

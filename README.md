@@ -1,8 +1,8 @@
 # Standard Readme
 
-[![Backers on Open Collective](https://opencollective.com/standard-readme/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/standard-readme/sponsors/badge.svg)](#sponsors) [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> Standard Readme Style
+A standard style for README files
 
 Your README file is normally the first entry point to your code. It should tell people why they should use your module, how they can install it, and how they can use it. Standardizing how you write your README makes creating and maintaining your READMEs easier. Great documentation takes work!
 
@@ -27,7 +27,7 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
-- [Contribute](#contribute)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Background
@@ -44,9 +44,9 @@ change the module's internals as long as the interface remains the same.
 
 ~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
 
-Writing READMEs is way too hard, and keeping them maintained is difficult. By offloading this process - making writing easier, making editing easier, making it clear whether or not an edit is up to spec or not - you can spend less time worry about whether or not your initial documentation is good, and spend more time writing and using code.
+Writing READMEs is way too hard, and keeping them maintained is difficult. By offloading this process - making writing easier, making editing easier, making it clear whether or not an edit is up to spec or not - you can spend less time worrying about whether or not your initial documentation is good, and spend more time writing and using code.
 
-As well, standardizing can help elsewhere. By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.
+By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.
 
 The goals for this repository are:
 
@@ -102,7 +102,7 @@ To see how the specification has been applied, see the [example-readmes](example
 
 [@RichardLitt](https://github.com/RichardLitt).
 
-## Contribute
+## Contributing
 
 Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
 
@@ -112,30 +112,6 @@ Standard Readme follows the [Contributor Covenant](http://contributor-covenant.o
 
 This project exists thanks to all the people who contribute. 
 <a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
-
-
-### Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/standard-readme#backer)]
-
-<a href="https://opencollective.com/standard-readme#backers" target="_blank"><img src="https://opencollective.com/standard-readme/backers.svg?width=890"></a>
-
-
-### Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/standard-readme#sponsor)]
-
-<a href="https://opencollective.com/standard-readme/sponsor/0/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/1/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/2/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/3/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/4/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/5/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/6/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/7/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/8/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/standard-readme/sponsor/9/website" target="_blank"><img src="https://opencollective.com/standard-readme/sponsor/9/avatar.svg"></a>
-
 
 
 ## License

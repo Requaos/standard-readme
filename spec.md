@@ -2,11 +2,11 @@
 
 A compliant README must satisfy all the requirements listed below.
 
-> Note: Standard Readme is designed for open source libraries. Although it’s [historically](README.md#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
+> Note: Standard Readme is designed for open source libraries. Although it's [historically](README.md#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
 
 **Requirements:**
   - Be called README.md (with capitalization).
-  - If the project supports i18n, the file must be named accordingly: `README.de.md`, where `de` is the BCP 47 Language tag. For naming, prioritize non-regional subtags for languages. If there is only one README and the language is not English, than a different language in the text is permissible without needing to to specify the BCP tag: e.g., `README.md` can be in German if there is no `README.md` in another language. Where there are multiple languages, `README.md` is reserved for English.
+  - If the project supports i18n, the file must be named accordingly: `README.de.md`, where `de` is the BCP 47 Language tag. For naming, prioritize non-regional subtags for languages. If there is only one README and the language is not English, then a different language in the text is permissible without needing to to specify the BCP tag: e.g., `README.md` can be in German if there is no `README.md` in another language. Where there are multiple languages, `README.md` is reserved for English.
   - Be a valid Markdown file.
   - Sections must appear in order given below. Optional sections may be omitted.
   - Sections must have the titles listed below, unless otherwise specified. If the README is in another language, the titles must be translated into that language.
@@ -31,7 +31,8 @@ _Note: This is only a navigation guide for the specification, and does not defin
   - [Extra Sections](#extra-sections)
   - [API](#api)
   - [Maintainers](#maintainers)
-  - [Contribute](#contribute)
+  - [Thanks](#thanks)
+  - [Contributing](#contributing)
   - [License](#license)
 - [Definitions](#definitions)
 
@@ -69,6 +70,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 
 **Suggestions:**
 - Use http://shields.io or a similar service to create and host the images.
+- Add the [Standard Readme badge](https://github.com/RichardLitt/standard-readme#badge).
 
 ### Short Description
 **Status:** Required.
@@ -76,7 +78,7 @@ _Note: This is only a navigation guide for the specification, and does not defin
 **Requirements:**
 - Must not have its own title.
 - Must be less than 120 characters.
-- Must start with `> `
+- Must not start with `> `
 - Must be on its own line.
 - Must match the description in the packager manager's `description` field.
 - Must match GitHub's description (if on GitHub).
@@ -144,7 +146,6 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - Link to prerequisite sites for programming language: [npmjs](https://npmjs.com), [godocs](https://godoc.org), etc.
 - Include any system-specific information needed for installation.
-- If there is no code in the module - for instance, a document-based module - this section is not required.
 - An `Updating` section would be useful for most packages, if there are multiple versions which the user may interface with.
 
 ### Usage
@@ -161,7 +162,6 @@ progressively greater amount of knowledge."
 **Suggestions:**
 - Cover basic choices that may affect usage: for instance, if JavaScript, cover promises/callbacks, ES6 here.
 - If relevant, point to a runnable file for the usage code.
-- If there is no code in the module - for instance, a document-based module - this section is not required.
 
 ### Extra Sections
 **Status**: Optional.
@@ -170,7 +170,7 @@ progressively greater amount of knowledge."
 - None.
 
 **Suggestions:**
-- This should not be called `Extra Sections`. This is a space for 0 or more sections to be included, each of which must have their have titles.
+- This should not be called `Extra Sections`. This is a space for 0 or more sections to be included, each of which must have their own titles.
 - This should contain any other sections that are relevant, placed after [Usage](#usage) and before [API](#api).
 - Specifically, the [Security](#security) section should be here if it wasn't important enough to be placed above.
 
@@ -197,7 +197,17 @@ progressively greater amount of knowledge."
 - This should be a small list of people in charge of the repo. This should not be everyone with access rights, such as an entire organization, but the people who should be pinged and who are in charge of the direction and maintenance of the repository.
 - Listing past maintainers is good for attribution, and kind.
 
-### Contribute
+### Thanks
+**Status**: Optional.
+
+**Requirements:**
+- Must be called `Thanks`, `Credits` or `Acknowledgements`.
+
+**Suggestions:**
+- State anyone or anything that significantly helped with the development of your project.
+- State public contact hyper-links if applicable.
+
+### Contributing
 **Status**: Required.
 
 **Requirements:**
@@ -206,10 +216,10 @@ progressively greater amount of knowledge."
 - List any requirements for contributing; for instance, having a sign-off on commits.
 
 **Suggestions:**
-- Link to a contributing or contribute file -- if there is one.
+- Link to a CONTRIBUTING file -- if there is one.
 - Be as friendly as possible.
 - Link to the GitHub issues.
-- Link to a Code of Conduct. A CoC is often in the Contribute section or document, or set elsewhere for an entire organization, so it may not be necessary to include the entire file in each repository. However, it is highly recommended to always link to the code, wherever it lives.
+- Link to a Code of Conduct. A CoC is often in the Contributing section or document, or set elsewhere for an entire organization, so it may not be necessary to include the entire file in each repository. However, it is highly recommended to always link to the code, wherever it lives.
 - A subsection for listing contributors is also welcome here.
 
 ### License
